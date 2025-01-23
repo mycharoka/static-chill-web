@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chill</title>
+  <link rel="stylesheet" href="./styles/login.css">
+</head>
+<body>
+  <div class="loginContainer">
+    <img class="logo" src="images/icon/Logo.png" alt="Chill">
+    <h3 class="title">Masuk</h3>
+    <p class="welcome">Selamat datang kembali!</p>
+    <form class="form" action="">
+      <fieldset class="formGroup">
+
+        <div class="formField">
+          <label class="formLabel" for="username">Username</label>
+          <input class="formInput" type="text" name="username" id="username" placeholder="Masukkan username">
+        </div>
+          
+        <div class="formField">
+          <label class="formLabel" for="password">Kata Sandi</label>
+          <input class="formInput" type="password" name="password" id="password" placeholder="Masukkan kata sandi">
+        </div>
+      </fieldset>
+
+      <div class="register">
+        <p class="registerDescription">Belum punya akun? <a class="registerLink" href="register.html">Daftar</a></p>
+        <a class="forgetPassword" href="#">Lupa kata sandi?</a>
+      </div>
+
+
+      <div class="formButton">
+        <button class="formSubmitButton" type="submit">Masuk</button>
+        <p class="orSeparator">Atau</p>
+        <button class="formSubmitButton" type="button">
+          <img class="googleIcon" src="images/icon/google-icon.png" alt="google-icon">
+          <span>Masuk dengan Google</span>
+        </button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
