@@ -15,7 +15,7 @@ body {
   align-items: center;
 }
 
-.loginContainer {
+#loginContainer {
   width: 529px;
   height: 663px;
   padding: 40px;

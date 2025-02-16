@@ -15,7 +15,7 @@ body {
   align-items: center;
 }
 
-.registerContainer {
+#registerContainer {
   width: 529px;
   height: auto;
   padding: 40px;
